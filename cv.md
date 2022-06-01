@@ -41,6 +41,3 @@ for f in fib_gen():
 
 ![Тут должна была быть картинка котика, но что-то сломалось :C](https://oir.mobi/uploads/posts/2021-04/1619619348_59-oir_mobi-p-samie-milie-kotiki-zhivotnie-krasivo-foto-65.jpg)
 ```Все ведь любят котят? )))```
-
-
-[TOC]
