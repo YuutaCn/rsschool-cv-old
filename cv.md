@@ -1,5 +1,4 @@
 # **Rubin Vitaliy**
-```Avatar```
 ![Cat images :(](https://bipbap.ru/wp-content/uploads/2017/06/629.jpg)
 
 ---
