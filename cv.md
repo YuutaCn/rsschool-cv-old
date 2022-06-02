@@ -4,9 +4,13 @@
 ---
 
 ## **Contact information:**
-+ **Phone:** +90-4448-4585
-+ **Email:** yuutacn@gmail.com
-+ **Telegram:** @yuutacn
+
+|         |                         |
+| ------------- | :---------------  |
+| **Phone:**    | +90-4448-4585     |
+| **Email:**    | yuutacn@gmail.com |
+| **Telegram:** | @yuutacn          |
+| **Discord**   | Yuuta#6849        |
 
 ---
 
