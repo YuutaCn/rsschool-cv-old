@@ -32,7 +32,7 @@ I quickly learn new things. I am purposeful and I will always achieve what I wan
 3. **C++** (basic);
 4. **JavaScript** (only start);
 5. **HTML, CSS**;
-6. **GitHub**;
+6. **Git, GitHub**;
 7. **VS Code, PyCharm, Atom**
 8. **PhotoShop**
 
