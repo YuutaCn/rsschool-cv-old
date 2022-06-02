@@ -1,5 +1,5 @@
 # **Rubin Vitaliy**
-
+![Cat images :(](https://bipbap.ru/wp-content/uploads/2017/06/629.jpg)
 
 ---
 
@@ -68,6 +68,12 @@ class Example(QWidget):
 
 ## **Courses:**
 Rolling Scope is the first platform where I started to learn programming. Before that, I used YouTube and the documentation for the language or framework.
+
+---
+
+## **Work experience:**
+
+1. [**Roling Scope CV**](https://yuutacn.github.io/rsschool-cv/cv)
 
 ---
 
