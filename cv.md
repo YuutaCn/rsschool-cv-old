@@ -9,7 +9,7 @@
 | ------------- | ---------------   |
 | **Phone:**    | +90-4448-4585     |
 | **Email:**    | yuutacn@gmail.com |
-| **GitHub**    | YuutaCn           |
+| **GitHub:**   | YuutaCn           |
 | **Telegram:** | @yuutacn          |
 | **Discord**   | Yuuta#6849        |
 
