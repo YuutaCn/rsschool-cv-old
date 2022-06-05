@@ -5,10 +5,11 @@
 
 ## **Contact information:**
 
-|         |                         |
-| ------------- | :---------------  |
+|               |                   |
+| ------------- | ---------------   |
 | **Phone:**    | +90-4448-4585     |
 | **Email:**    | yuutacn@gmail.com |
+| **GitHub**    | YuutaCn           |
 | **Telegram:** | @yuutacn          |
 | **Discord**   | Yuuta#6849        |
 
@@ -84,4 +85,3 @@ Rolling Scope is the first platform where I started to learn programming. Before
 ## **Languages:**
 + **English** - A1
 + **Russian** - Native
-  
