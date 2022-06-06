@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitaly Rubin [CV]</title>
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME-LOGO</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#code">CODE EXAMPLE</a></li>
+                <li><a href="#courses">COURSES</a></li>
+                <li><a href="#work">MY WORKS</a></li>
+                <li><a href="#lang">LANGUAGES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 id="home">Hello, I am<br> Rubin Vitaly</h1>
+        <img src="/img/gif/isla-plastic-memories-2.gif" alt="avatar_YuutaCn" width="400">
+
+        <h2 id="about">Briefly About Myself:</h2>
+        <p>I am 21 years old.</p>
+        <p>I want to become a specialist in information security in the future. I am currently learning JavaScript to start working in IT. Previously studied Python, C, C++. I already have minimal knowledge in HTML, CSS.</p>
+        <p>I quickly learn new things. I am purposeful and I will always achieve what I want.</p>
+
+        <h2 id="skills">Skills and Proficiency:</h2>
+        <ul>
+            <li><b>Python</b></li>
+            <li><b>HTML</b></li>
+            <li><b>CSS</b></li>
+            <li><b>JavaScript</b></li>
+            <li><b>C</b></li>
+            <li><b>C++</b></li>
+        </ul>
+
+        <h2 id="code">Code Exemple</h2>
+        <p>I'll paste a small piece of code written in Python using the QtPy libraries. This is just a piece of code that creates a window for my assistant. I will not paste all the code, it will take up a lot of space.</p>
+        <pre><code data-language="python">
+class Example(QWidget):
+    
+    def __init__(self):
+        super().__init__()
+        self.setWindowFlags(QtCore.Qt.CustomizeWindowHint |
+                            QtCore.Qt.WindowStaysOnTopHint)
+
+        self.initUI()
+        self.gridLayout = QtWidgets.QGridLayout(self.btn)
+        spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.gridLayout.addItem(spacerItem1, 0, 2, 1, 1)
+    
+        
+
+    def initUI(self): 
+        hbox = QHBoxLayout(self)
+        self.setAttribute(QtCore.Qt.WA_TranslucentBackground, True)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("icon/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) 
+        self.setWindowIcon(icon)
+        self.setWindowOpacity(0.87)
+        self.setMinimumSize(QtCore.QSize(180, 185))
+        self.setMaximumSize(QtCore.QSize(180, 185))
+    </code></pre>
+
+        <h2 id="courses">Courses:</h2>
+        <p>Rolling Scope is the first platform where I started to learn programming. Before that, I used YouTube and the documentation for the language or framework.</p>
+
+        <h2 id="work">Work Experience:</h2>
+        <p>Здесь засуним какой-нибудь прикольный сайтик</p>
+
+        <h2 id="lang">Languages</h2>
+        <ul>
+            <li><b>English</b> - A1</li>
+            <li><b>Russian</b> - Native</li>
+        </ul>
+
+
+        <h2 id="contact">Contact Information:</h2>
+        <table>
+            <tr>
+                <th>Phone</th>
+                <th>+90-4448-4585</th>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <th>yuutacn@gmail.com</th>
+            </tr>
+            <tr>
+                <th>GitHub</th>
+                <th>YuutaCn</th>
+            </tr>
+            <tr>
+                <th>Telegram</th>
+                <th>@yuutacn</th>
+            </tr>
+            <tr>
+                <th>Discord</th>
+                <th>Yuuta#6849</th>
+            </tr>
+        </table>
+        <h2>Contact With Me:</h2>
+        <form action="">
+            <input class="email" type="text" placeholder="E-mail">
+            <input class="message" type="text" placeholder="Message">
+
+            <button class="button">
+                <span class=""> SEND </span>
+              </button>
+        </form>
+    </main>
+
+
+    <footer>
+        <a href="https://github.com/YuutaCn/ ">
+            <img src="/img/github_icon.jpg " alt="link_GitHub " width="80 "></a>
+
+        <h2>&COPY;2022 BY RUBIN VITALIY</h2>
+
+        <a href="https://rs.school/js/ ">
+            <img src="/img/rs_school_js.svg " alt="link_cours_RSS " width="80 "></a>
+
+    </footer>
+</body>
+
+</html>
