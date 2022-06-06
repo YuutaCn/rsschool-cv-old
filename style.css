@@ -1,148 +1,150 @@
-            * {
-                margin: 0;
-                padding: 0;
-                color: azure;
-                font-family: 'Kdam Thmor Pro', sans-serif;
-                text-align: center;
-            }
-            
-            .href {
-                text-decoration: none;
-            }
-            
-            html,
-            body {
-                padding-left: 3pc;
-                padding-right: 2pc;
-                padding-top: 8%;
-                height: 100%;
-                background-color: #000000;
-            }
-            /* Меню */
-            
-            .nav {
-                display: block;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 6pc;
-                height: 100%;
-                background-color: #004cff;
-            }
-            
-            .navigation {
-                display: block;
-                position: center;
-                line-height: 1.2pc;
-            }
-            
-            .navigation li {
-                display: block;
-                position: flex;
-                font-size: 0.9pc;
-                margin-top: 6%;
-                padding: 8%;
-                transition: 350ms;
-            }
-            
-            .navigation li:hover {
-                border-radius: 8%;
-                transform: scale(1., 1.1);
-                transition: all 0.3s;
-                border: 1px solid rgba(255, 255, 255, 0.5);
-            }
-            
-            .img_git {
-                display: block;
-                position: absolute;
-                top: 77%;
-                left: 8%;
-                height: 80px;
-                width: 80px;
-                transition: 0.3s;
-                cursor: pointer;
-            }
-            
-            .img_git::before {
-                border-radius: 80%;
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 80px;
-                height: 80px;
-                z-index: 1;
-                background-color: rgba(255, 255, 255, 0.1);
-                transition: all 0.3s;
-            }
-            
-            .img_git:hover::before {
-                opacity: 0;
-                transform: scale(0.5, 0.5);
-            }
-            
-            .img_git::after {
-                border-radius: 80%;
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 80px;
-                height: 80px;
-                z-index: 1;
-                opacity: 0;
-                transition: all 0.3s;
-                border: 1px solid rgba(255, 255, 255, 0.5);
-                transform: scale(1.2, 1.2);
-            }
-            
-            .img_git:hover::after {
-                opacity: 1;
-                transform: scale(1, 1);
-            }
-            
-            .img_rs {
-                display: block;
-                position: absolute;
-                top: 92%;
-                left: 8%;
-                cursor: pointer;
-            }
-            
-            .img_rs::before {
-                border-radius: 6%;
-                content: '';
-                position: absolute;
-                top: -6px;
-                left: -2px;
-                width: calc(100% + 5px);
-                height: calc(100% + 5px);
-                z-index: 1;
-                background-color: rgba(255, 255, 255, 0.1);
-                transition: all 0.3s;
-            }
-            
-            .img_rs:hover::before {
-                opacity: 0;
-                transform: scale(0.5, 0.5);
-            }
-            
-            .img_rs::after {
-                border-radius: 6%;
-                content: '';
-                position: absolute;
-                top: -5px;
-                left: -2px;
-                width: calc(100% + 5px);
-                height: calc(100% + 5px);
-                z-index: 1;
-                opacity: 0;
-                transition: all 0.3s;
-                border: 1px solid rgba(255, 255, 255, 0.5);
-                transform: scale(1.2, 1.2);
-            }
-            
-            .img_rs:hover::after {
-                opacity: 1;
-                transform: scale(1, 1);
-            }
+* {
+    margin: 0;
+    padding: 0;
+    color: azure;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+}
+
+.href {
+    text-decoration: none;
+}
+
+html,
+body {
+    padding-left: 3pc;
+    padding-right: 2pc;
+    padding-top: 8%;
+    height: 100%;
+    background-color: #000000;
+}
+
+
+/* Меню */
+
+.nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6pc;
+    height: 100%;
+    background-color: #004cff;
+}
+
+.navigation {
+    display: block;
+    position: center;
+    line-height: 1.2pc;
+}
+
+.navigation li {
+    display: block;
+    position: flex;
+    font-size: 0.9pc;
+    margin-top: 6%;
+    padding: 8%;
+    transition: 350ms;
+}
+
+.navigation li:hover {
+    border-radius: 8%;
+    transform: scale(1., 1.1);
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.img_git {
+    display: block;
+    position: absolute;
+    top: 77%;
+    left: 8%;
+    height: 80px;
+    width: 80px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.img_git::before {
+    border-radius: 80%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.img_git:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.img_git::after {
+    border-radius: 80%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.img_git:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.img_rs {
+    display: block;
+    position: absolute;
+    top: 92%;
+    left: 8%;
+    cursor: pointer;
+}
+
+.img_rs::before {
+    border-radius: 6%;
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -2px;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.img_rs:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.img_rs::after {
+    border-radius: 6%;
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.img_rs:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
