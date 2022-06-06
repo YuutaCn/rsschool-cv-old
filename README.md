@@ -1,1 +1,1 @@
-https://YuutaCn.github.io/rsschool-cv/cv
+https://YuutaCn.github.io/rsschool-cv/
