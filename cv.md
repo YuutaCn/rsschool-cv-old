@@ -85,4 +85,3 @@ Rolling Scope is the first platform where I started to learn programming. Before
 ## **Languages:**
 + **English** - A1
 + **Russian** - Native
-  
