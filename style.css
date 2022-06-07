@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: azure;
-    font-family: 'Kdam Thmor Pro', sans-serif;
     text-align: center;
 }
 
@@ -45,6 +43,7 @@ body {
     margin-top: 6%;
     padding: 8%;
     transition: 350ms;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .navigation li:hover {
