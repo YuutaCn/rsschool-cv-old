@@ -1,150 +1,327 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: azure;
+@media (orientation: landscape) {
+    * {
+        margin: 0;
+        padding: 0;
+        color: azure
+    }
+    .href {
+        text-decoration: none;
+    }
+    body {
+        background-color: black;
+    }
+    /* Меню */
+    .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: #004cffb6;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        height: 100%;
+    }
+    .navigation {
+        display: flexbox;
+        position: flex;
+        margin-top: 8%;
+    }
+    .navigation a {
+        color: #c7eaea;
+    }
+    .navigation li {
+        text-align: center;
+        padding: 8% 1%;
+        list-style: none;
+        font-size: 15px;
+        color: #00000000;
+        font-weight: 800;
+        text-shadow: 1px 1px 10px rgb(0, 85, 113);
+        transition: all 0.3s;
+    }
+    .navigation li:hover {
+        border-radius: 8%;
+        text-shadow: 1px 1px 20px rgb(50, 230, 65);
+        font-weight: 800;
+        transform: scale(1.2, 1.2);
+    }
+    .img_git {
+        display: flex;
+        position: absolute;
+        top: 78%;
+        left: 16px;
+    }
+    .img_git::before {
+        border-radius: 80%;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.05);
+        transition: all 0.3s;
+    }
+    .img_git:hover::before {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+    }
+    .img_git::after {
+        border-radius: 80%;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.254);
+        transform: scale(1.2, 1.2);
+    }
+    .img_git:hover::after {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+    .img_rs {
+        display: flex;
+        position: absolute;
+        top: 93%;
+        left: 16px;
+    }
+    .img_rs::before {
+        border-radius: 6%;
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: -2px;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px);
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.05);
+        transition: all 0.3s;
+    }
+    .img_rs:hover::before {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+    }
+    .img_rs::after {
+        border-radius: 6%;
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -2px;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px);
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.254);
+        transform: scale(1.2, 1.2);
+    }
+    .img_rs:hover::after {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+    /* yuuta */
+    main {
+        display: flexbox;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    footer {
+        display: flexbox;
+        text-align: center;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 109px;
+        margin-top: 3%;
+        background-color: #004cffb6;
+        padding: auto;
+    }
+    .text_footer {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .img_git_footer {
+        position: absolute;
+        top: -200px;
+        opacity: 0;
+    }
+    .img_rs_footer {
+        position: absolute;
+        top: -200px;
+        opacity: 0;
+    }
 }
 
-.href {
-    text-decoration: none;
-}
 
-html,
-body {
-    padding-left: 3pc;
-    padding-right: 2pc;
-    padding-top: 8%;
-    height: 100%;
-    background-color: #000000;
-}
+/* Мобилки */
 
-
-/* Меню */
-
-.nav {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 6pc;
-    height: 100%;
-    background-color: #004cff;
-}
-
-.navigation {
-    display: block;
-    position: center;
-    line-height: 1.2pc;
-}
-
-.navigation li {
-    display: block;
-    position: flex;
-    font-size: 0.9pc;
-    margin-top: 6%;
-    padding: 8%;
-    transition: 350ms;
-    color: azure;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.navigation li:hover {
-    border-radius: 8%;
-    transform: scale(1.1, 1.1);
-    transition: all 0.3s;
-}
-
-.img_git {
-    display: block;
-    position: absolute;
-    top: 77%;
-    left: 8%;
-    height: 80px;
-    width: 80px;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.img_git::before {
-    border-radius: 80%;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: all 0.3s;
-}
-
-.img_git:hover::before {
-    opacity: 0;
-    transform: scale(0.5, 0.5);
-}
-
-.img_git::after {
-    border-radius: 80%;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    transform: scale(1.2, 1.2);
-}
-
-.img_git:hover::after {
-    opacity: 1;
-    transform: scale(1, 1);
-}
-
-.img_rs {
-    display: block;
-    position: absolute;
-    top: 92%;
-    left: 8%;
-    cursor: pointer;
-}
-
-.img_rs::before {
-    border-radius: 6%;
-    content: '';
-    position: absolute;
-    top: -6px;
-    left: -2px;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: all 0.3s;
-}
-
-.img_rs:hover::before {
-    opacity: 0;
-    transform: scale(0.5, 0.5);
-}
-
-.img_rs::after {
-    border-radius: 6%;
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -2px;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    transform: scale(1.2, 1.2);
-}
-
-.img_rs:hover::after {
-    opacity: 1;
-    transform: scale(1, 1);
+@media (orientation: portrait) {
+    * {
+        margin: 0;
+        padding: 0;
+        color: azure
+    }
+    .href {
+        text-decoration: none;
+    }
+    body {
+        background-color: black;
+    }
+    /* Меню */
+    .nav {
+        display: flex;
+        top: 0;
+        left: 0;
+        background-color: #004cffb6;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        width: 100%;
+    }
+    .navigation {
+        display: inline;
+    }
+    .navigation a {
+        color: #c7eaea;
+        margin-left: 5px;
+    }
+    .navigation li {
+        display: inline-flex;
+        position: relative;
+        text-align: right;
+        margin: 4px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 14px;
+        font-weight: 800;
+        text-shadow: 1px 1px 10px rgb(0, 85, 113);
+        color: #00000000;
+        transition: 0.3s;
+    }
+    .navigation li:hover {
+        border-radius: 8%;
+        text-shadow: 1px 1px 20px rgb(50, 230, 65);
+        font-weight: 800;
+        transform: scale(1.1, 1.1);
+    }
+    .img_git {
+        position: absolute;
+        top: -200px;
+        opacity: 0;
+    }
+    .img_rs {
+        position: absolute;
+        top: -200px;
+        opacity: 0;
+    }
+    /* yuuta */
+    main {
+        display: flexbox;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /* подвал */
+    footer {
+        display: flex;
+        background-color: #004cffb6;
+        ;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .img_git_footer {
+        display: flex;
+        position: relative;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .img_git_footer::before {
+        border-radius: 80%;
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 70px;
+        height: 70px;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.04);
+        transition: all 0.3s;
+    }
+    .img_git_footer:hover::before {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+    }
+    .img_git_footer::after {
+        border-radius: 80%;
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 70px;
+        height: 70px;
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.254);
+        transform: scale(1.2, 1.2);
+    }
+    .img_git_footer:hover::after {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+    .text_footer {
+        display: flex;
+        position: absolute;
+        left: 28%;
+        right: 30%;
+        margin-top: 7%;
+        margin-bottom: 0%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        color: black;
+    }
+    .img_rs_footer {
+        display: flex;
+        position: absolute;
+        right: 25px;
+        margin-top: 28px;
+    }
+    .img_rs_footer::before {
+        border-radius: 6%;
+        content: '';
+        position: absolute;
+        top: -13px;
+        left: -10px;
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.04);
+        transition: all 0.3s;
+    }
+    .img_rs_footer:hover::before {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+    }
+    .img_rs_footer::after {
+        border-radius: 6%;
+        content: '';
+        position: absolute;
+        top: -13px;
+        left: -10px;
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.254);
+        transform: scale(1.2, 1.2);
+    }
+    .img_rs_footer:hover::after {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
 }
