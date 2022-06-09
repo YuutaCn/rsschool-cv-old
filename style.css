@@ -205,6 +205,32 @@
         border: 2px solid rgb(27, 27, 202);
         box-shadow: 0px 0px 100px rgba(128, 128, 165, 0.326);
     }
+    /* Code Exemple */
+    .code {
+        display: grid;
+        place-items: center;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+        color: #b1b1b1;
+    }
+    #code {
+        padding-top: 40px;
+        font-size: 28px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 0.7vw;
+        animation: home-animation 2s linear infinite;
+        color: #0033ab;
+        line-height: 1.5;
+    }
+    .p-code {
+        display: flexbox;
+        padding: 5px;
+        border: 1px solid #0033ab2c;
+        margin-top: 10px;
+        color: #b1b1b1;
+        font-size: 19px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
     pre {
         height: 420px;
         width: 70vw;
@@ -212,6 +238,33 @@
         margin-top: 10px;
         border: 1px solid rgb(176, 176, 176);
     }
+    /* Courses */
+    .courses {
+        display: grid;
+        place-items: center;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+        color: #b1b1b1;
+    }
+    #courses {
+        padding-top: 100px;
+        font-size: 28px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 0.7vw;
+        animation: home-animation 2s linear infinite;
+        color: #0033ab;
+        line-height: 1.5;
+    }
+    .p-courses {
+        display: flexbox;
+        padding: 5px;
+        border: 1px solid #0033ab2c;
+        margin-top: 10px;
+        color: #b1b1b1;
+        font-size: 19px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    /* Work Experience */
     /* Footer  */
     footer {
         display: flex;
