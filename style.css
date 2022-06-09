@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Kdam+Thmor+Pro&display=swap');
 @media (orientation: landscape) {
     * {
         margin: 0;
         padding: 0;
-        color: azure
     }
     .href {
         text-decoration: none;
@@ -47,25 +47,23 @@
     }
     /* yuuta */
     main {
-        position: relative;
         place-items: center;
         display: flexbox;
         margin-left: 15%;
         margin-right: 15%;
     }
+    /* Home */
     .name {
-        display: flex;
+        display: grid;
         place-items: center;
-        justify-content: space-between;
-        padding-top: 8rem;
         padding-bottom: 20rem;
+        grid-template-columns: 60% 40%;
     }
     #home {
         font-size: 28px;
         font-family: 'Kdam Thmor Pro', sans-serif;
         letter-spacing: 0.7vw;
-        margin-bottom: 130px;
-        margin-left: 30px;
+        padding-top: 130px;
         animation: home-animation 2.8s linear infinite;
         color: #0033ab;
         line-height: 1.1;
@@ -87,9 +85,13 @@
             text-shadow: -40px -40px 100px #0033ab, 40px 40px 100px #5d02cb, 0px 0px 2px #0033ab;
         }
     }
+    .gif-1-conteiner {
+        display: grid;
+        width: 20rem;
+    }
     .gif-1 {
-        width: 400px;
-        position: relative;
+        display: grid;
+        position: absolute;
         border-radius: 10%;
         border: 0.15vw solid rgb(0, 0, 0);
         animation: img-1-animation 10s linear infinite;
@@ -109,6 +111,99 @@
         margin-left: auto;
         margin-right: auto;
         display: flexbox;
+    }
+    /* About Me */
+    .about {
+        display: flexbox;
+        place-items: center;
+        justify-content: space-between;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+    }
+    #about {
+        padding-top: 3rem;
+        font-size: 28px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 0.7vw;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        animation: home-animation 2s linear infinite;
+        color: #0033ab;
+        line-height: 1.5;
+    }
+    .p-about {
+        display: flexbox;
+        padding: 5px;
+        border: 1px solid #0033ab2c;
+        margin-top: 10px;
+        color: #b1b1b1;
+        font-size: 19px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .gif-2-conteiner {
+        display: flexbox;
+        position: relative;
+        margin-left: 5%;
+        margin-top: 3rem;
+        align-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+    }
+    .gif-2 {
+        display: grid;
+        position: relative;
+        border-radius: 10%;
+        border: 0.15vw solid rgb(0, 0, 0);
+        animation: img-1-animation 10s linear infinite;
+    }
+    @keyframes img-1-animation {
+        0% {
+            box-shadow: 0px 0px 50px #006bb780;
+        }
+        50% {
+            box-shadow: 0px 0px 80px #e27aff80;
+        }
+        100% {
+            box-shadow: 0px 0px 50px #006bb780;
+        }
+    }
+    /* Skills */
+    .skills {
+        display: grid;
+        place-items: center;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+        color: #b1b1b1;
+    }
+    #skills {
+        padding-top: 100px;
+        font-size: 28px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 0.7vw;
+        animation: home-animation 2s linear infinite;
+        color: #0033ab;
+        line-height: 1.5;
+    }
+    .skills_li {
+        padding-top: 5rem;
+    }
+    .skills li {
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        list-style: none;
+    }
+    .progress {
+        width: 300px;
+        padding-top: 0.2rem;
+        padding-bottom: 0.3;
+    }
+    .progress progress {
+        opacity: 1;
+        width: 100%;
+        background-color: #8c3a751c;
+        border: 2px solid rgb(27, 27, 202);
+        box-shadow: 0px 0px 100px rgba(128, 128, 165, 0.326);
     }
     pre {
         height: 420px;
@@ -133,6 +228,7 @@
         font-size: 1.4vw;
     }
     .img_git_footer {
+        left: 0;
         margin: auto;
     }
     .img_rs_footer {
@@ -198,6 +294,11 @@
         margin-bottom: 10%;
         margin-left: 5%;
         margin-right: 5%;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+    }
+    main article {
+        scroll-snap-align: start;
     }
     .code {
         margin-left: auto;
