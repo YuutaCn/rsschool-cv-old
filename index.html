@@ -21,7 +21,7 @@
                 <li><a class='href' href="#courses">COURSES </a></li>
                 <li><a class='href' href="#work">MY WORKS </a></li>
                 <li><a class='href' href="#lang">LANGUAGES </a></li>
-                <li><a class='href' href="#contact">CONTACT </a></li>
+                <li><a class='href' href="#contact-1">CONTACT </a></li>
             </ul>
         </nav>
     </header>
@@ -47,6 +47,7 @@
             </aside>
         </article>
 
+        <!-- Skills -->
         <article class="skills">
             <h2 id="skills">Skills and Proficiency:</h2>
             <aside class="skills_li">
@@ -96,6 +97,7 @@
                 </ul>
             </aside>
         </article>
+
         <!-- Code Example -->
         <article class="code">
             <h2 id="code">Code Exemple:</h2>
@@ -127,40 +129,89 @@ class Example(QWidget):
         self.setMaximumSize(QtCore.QSize(180, 185))
     </code></pre>
         </article>
+
         <!-- Courses -->
         <article class="courses">
             <h2 id="courses">Courses:</h2>
             <p class="p-courses">Rolling Scope is the first platform where I started to learn programming. Before that, I used YouTube and the documentation for the language or framework.</p>
         </article>
+
         <!-- Work Experience -->
         <article class="work">
             <h2 id="work">Work Experience:</h2>
-            <p class="p-work">Здесь засуним какой-нибудь прикольный сайтик</p>
+            <aside class="work_li">
+                <ol>
+                    <li><a class="href" href="https://yuutacn.github.io/rsschool-cv"><b>
+                    Rolling Scope School CV
+                </b></a></li>
+                    <li><a class="href" href="https://app.rs.school/"><b>
+                    Reserve Place
+                </b></a></li>
+                    <li><a class="href" href="https://app.rs.school/"><b>
+                    Reserve Place
+                </b></a></li>
+                    <li><a class="href" href="https://app.rs.school/"><b>
+                    Reserve Place
+                </b></a></li>
+                </ol>
+            </aside>
         </article>
-        <h2 id="lang">Languages</h2>
-        <ul>
-            <li><b>English</b> - A1</li>
-            <li><b>Russian</b> - Native</li>
-        </ul>
+
+        <!-- Languages -->
+        <article class="lang">
+            <h2 id="lang">Languages:</h2>
+            <aside class="lang_li">
+                <ul>
+                    <li><b>English</b>
+                        <a>
+                            <div class="progress">
+                                <progress max="100" value="27"></progress>
+                            </div>
+                        </a>
+                    </li>
+                    <li><b>Russian</b>
+                        <a>
+                            <div class="progress">
+                                <progress max="100" value="89"></progress>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </article>
 
         <!-- Контактная информация -->
-        <h2 id="contact">Contact Information:</h2>
-        <ul>
-            <li>Phone - +90-4448-4585</li>
-            <li>Email - yuutacn@gmail.com</li>
-            <li>GitHub - YuutaCn</li>
-            <li>Telegram - @yuutacn</li>
-            <li>Discord - Yuuta#6849 </li>
-        </ul>
+        <article class="contact">
+            <aside class="contact-1">
+                <h2 id="contact-1">Contact Information:</h2>
+                <ul class="contact_li">
+                    <li>Phone - +90-4448-4585</li>
+                    <li>Email - yuutacn@gmail.com</li>
+                    <li>GitHub - YuutaCn</li>
+                    <li>Telegram - @yuutacn</li>
+                    <li>Discord - Yuuta#6849 </li>
+                </ul>
+            </aside>
+            <!-- Свяжитесь -->
+            <aside class="contact-2">
+                <h2 id="contact-2">Contact With Me:</h2>
+                <aside class="form">
+                    <ul class="form_li">
+                        <li>
+                            <input class="email" type="email" placeholder="E-mail">
+                        </li>
+                        <li>
+                            <textarea class="message" type="text" placeholder="Message" tabindex="0" aria-multiline="true" data-role="editable" style="overflow: auto; overflow-wrap: break-word; max-height: 200px; min-height: 200px; max-width: 260px; min-width: 260px" contenteditable="true"></textarea>
+                        </li>
+                        <li>
+                            <button class="button"><span class="button_url"><a href="https://github.com/YuutaCn/">SEND</a></span></button>
+                        </li>
+                    </ul>
+                </aside>
+            </aside>
+        </article>
 
-        <!-- Свяжитесь -->
-        <h2>Contact With Me:</h2>
-        <input class="email" type="text" placeholder="E-mail">
-        <input class="message" type="text" placeholder="Message">
 
-        <button class="button">
-                <span class="button"> SEND </span>
-              </button>
     </main>
 
 
