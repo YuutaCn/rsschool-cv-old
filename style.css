@@ -462,7 +462,7 @@
     * {
         margin: 0;
         padding: 0;
-        scroll-snap-type: y proximity;
+        scroll-snap-type: y mandatory;
         scroll-padding-bottom: 100px;
         scroll-behavior: smooth;
     }
@@ -503,12 +503,12 @@
         color: #00000000;
         transition: 0.3s;
     }
-    .navigation li:hover {
+    /* .navigation li:hover {
         border-radius: 8%;
         text-shadow: 1px 1px 20px rgb(50, 230, 65);
         font-weight: 800;
         transform: scale(1.1, 1.1);
-    }
+    } */
     /* yuuta */
     main {
         place-items: center;
