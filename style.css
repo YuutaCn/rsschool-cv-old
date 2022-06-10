@@ -420,7 +420,7 @@
         border: 2px solid #b1b1b1;
         color: #b1b1b1;
         width: 260px;
-        height: 400px;
+        height: 200px;
         margin-left: 12%;
         margin-bottom: 6px;
         padding-left: 3px;
@@ -501,12 +501,12 @@
         color: #00000000;
         transition: 0.3s;
     }
-    /* .navigation li:hover {
+    .navigation li:hover {
         border-radius: 8%;
         text-shadow: 1px 1px 20px rgb(50, 230, 65);
         font-weight: 800;
-        transform: scale(1.1, 1.1);
-    } */
+        transform: scale(1.05, 1.05);
+    }
     /* yuuta */
     main {
         place-items: center;
@@ -519,7 +519,6 @@
         display: flexbox;
         place-items: center;
         padding-bottom: 80%;
-        grid-template-columns: 60% 40%;
     }
     #home:first-child {
         scroll-snap-align: start;
@@ -875,7 +874,7 @@
         border: 2px solid #b1b1b1;
         color: #b1b1b1;
         width: 260px;
-        height: 400px;
+        height: 200px;
         margin-bottom: 6px;
         padding-left: 3px;
         padding-right: 3px;

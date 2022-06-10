@@ -181,7 +181,7 @@ class Example(QWidget):
         </article>
 
         <!-- Контактная информация -->
-        <article class="contact">
+        <div class="contact">
             <aside class="contact-1">
                 <h2 id="contact-1">Contact Information:</h2>
                 <ul class="contact_li">
@@ -201,15 +201,15 @@ class Example(QWidget):
                             <input class="email" type="email" placeholder="E-mail">
                         </li>
                         <li>
-                            <textarea class="message" type="text" placeholder="Message" tabindex="0" aria-multiline="true" data-role="editable" style="overflow: auto; overflow-wrap: break-word; max-height: 200px; min-height: 200px; max-width: 260px; min-width: 260px" contenteditable="true"></textarea>
+                            <input class="message" type="text" placeholder="Message"></textarea>
                         </li>
                         <li>
-                            <button class="button"><span class="button_url"><a href="https://github.com/YuutaCn/">SEND</a></span></button>
+                            <button class="button"><span class="button_url">SEND</span></button>
                         </li>
                     </ul>
                 </aside>
             </aside>
-        </article>
+        </div>
 
 
     </main>
